@@ -34,4 +34,4 @@ jobs:
       - name: command over ssh
         run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -i ~/.ssh/id_rsa 'pwd;date'
       - name: rsync files
-        run: rsync -anv -e 'ssh -i ~/.ssh/id_rsa' ./build/json/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.RSYNC_TARGET_PATH }}
+        run: rsync -a -e 'ssh -i ~/.ssh/id_rsa' ./build/json/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.RSYNC_TARGET_PATH }}
