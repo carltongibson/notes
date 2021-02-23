@@ -1,0 +1,30 @@
+name: Build & Upload
+
+on: [push, pull_request]
+  # Triggers the workflow on push or pull request events but only for the main branch
+  # push:
+  #   branches: [ main ]
+  # pull_request:
+  #   branches: [ main ]
+
+  # run this workflow manually while testing.
+  workflow_dispatch:
+
+jobs:
+  # Do the upload first.
+  # Will depend on build job.
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
+      - uses: actions/checkout@v2
+      - name: Install SSH key
+        uses: carltongibson/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          name: id_rsa # optional
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+        # Initial test command to check config.
+      - name: command over ssh
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -i ~/.ssh/id_rsa 'pwd;date'
