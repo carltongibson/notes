@@ -1,11 +1,9 @@
 name: Build & Upload
 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Trigger on pushes to the main branch only.
   push:
-    # branches: [ main ]
-  # pull_request:
-    # branches: [ main ]
+    branches: [ main ]
 
   # Or run manually.
   workflow_dispatch:
@@ -30,8 +28,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           name: id_rsa # optional
           known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
-        # Initial test command to check config.
-      - name: command over ssh
-        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -i ~/.ssh/id_rsa 'pwd;date'
       - name: rsync files
         run: rsync -a -e 'ssh -i ~/.ssh/id_rsa' ./build/json/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.RSYNC_TARGET_PATH }}
