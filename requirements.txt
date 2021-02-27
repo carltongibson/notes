@@ -2,3 +2,4 @@ furo
 myst-parser
 sphinx
 sphinx-autobuild
+sphinx-tabs
