@@ -1,6 +1,9 @@
-Notes on …
-==========
+The Notebook
+============
 
+.. admonition:: Under construction
+
+  Will cover various topics, eventually…
 
 
 .. toctree::
