@@ -30,7 +30,7 @@ This file is written in reStructuredText. You can look at it's `source`_.
 
 Sphinx was built with reStructuredText support. When Markdown became popular
 Sphinx lost a bit of popularity as people went in search of solutions that
-didn't require then to use a different markup language.
+didn't require them to use a different markup language.
 
 Two points to make here:
 
