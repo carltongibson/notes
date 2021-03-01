@@ -2,6 +2,10 @@
 Technical Writing with Sphinx
 =============================
 
+.. meta::
+   :description: An introduction to technical writing with Sphinx.
+   :keywords: Sphinx
+
 Sphinx is a documentation builder. It powers the docs for lots of projects,
 including both Django and Python.
 
