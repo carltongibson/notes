@@ -203,8 +203,9 @@ Getting started tips
 * The `furo theme`_ is very nice.
 
 * As soon as you're up and running, spending an hour or so getting going with
-  `cross-references`_, and the `autodoc`_ and `intersphinx`_ extensions. These
-  will show you the road to unlocking the real power of Sphinx.
+  `cross-references`_, and the `autodoc`_ and `intersphinx`_ extensions will 
+  be time well spent. These will show you the road to unlocking the real power
+  of Sphinx.
 
 .. _MyST Parser: https://myst-parser.readthedocs.io/en/latest/
 .. _official Getting Started guide: https://www.sphinx-doc.org/en/master/usage/quickstart.html
