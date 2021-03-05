@@ -1,3 +1,4 @@
+============
 The Notebook
 ============
 
@@ -12,8 +13,16 @@ The Notebook
 
     sphinx/index
 
+TIL
+===
 
+*Today I learnt*. Shorter notes and snippets.
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Alpine.js:
+
+    til/alpine.js/getting-started
 
 ..  Indices and tables
   ==================
