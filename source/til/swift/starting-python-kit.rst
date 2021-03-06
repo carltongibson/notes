@@ -17,7 +17,7 @@ Repo: https://github.com/pvieito/PythonKit
     to get PythonKit to work properly.
 
     I've talked about `Fighting with macOS’s System Integrity Protection
-    <https://noumenal.es/posts/weeknotes-wk-40/PX/>` before if you want the
+    <https://noumenal.es/posts/weeknotes-wk-40/PX/>`_ before if you want the
     details, but macOS is quite particular about library paths otherwise, and
     you'll likely end up with the system copy of Python 2.7!
 
