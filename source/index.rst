@@ -13,16 +13,24 @@ The Notebook
 
     sphinx/index
 
-TIL
-===
+Today I learnt (TIL)
+====================
 
-*Today I learnt*. Shorter notes and snippets.
+Shorter notes and snippets.
 
 .. toctree::
     :maxdepth: 1
     :caption: Alpine.js:
 
     til/alpine.js/getting-started
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Swift:
+
+    til/swift/starting-python-kit
+
+
 
 ..  Indices and tables
   ==================
