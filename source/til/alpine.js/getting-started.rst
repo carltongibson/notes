@@ -37,7 +37,7 @@ You include from the CDN, then declare a component.
     <div x-bind:class="{ 'blue': state }">@class</div>
   </div>
 
-The `x-data` is what causes the component to de defined. The attribute can be
+The `x-data` is what causes the component to be defined. The attribute can be
 empty, but it's the on-switch, you need it there.
 
 Then the button toggles the class on the div.
