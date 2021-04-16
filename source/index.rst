@@ -26,6 +26,13 @@ Shorter notes and snippets.
 
 .. toctree::
     :maxdepth: 1
+    :caption: HTMX:
+
+    til/htmx/progressively-enhance-a-form
+
+
+.. toctree::
+    :maxdepth: 1
     :caption: Swift:
 
     til/swift/starting-python-kit
