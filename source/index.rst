@@ -36,7 +36,7 @@ Shorter notes and snippets.
     :caption: Swift:
 
     til/swift/starting-python-kit
-
+    til/swift/async-let
 
 
 ..  Indices and tables
