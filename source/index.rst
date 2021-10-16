@@ -30,6 +30,11 @@ Shorter notes and snippets.
 
     til/htmx/progressively-enhance-a-form
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Sphinx:
+
+    til/sphinx/intersphinx-to-django
 
 .. toctree::
     :maxdepth: 1
