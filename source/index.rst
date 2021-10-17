@@ -26,6 +26,12 @@ Shorter notes and snippets.
 
 .. toctree::
     :maxdepth: 1
+    :caption: GitHub Actions:
+
+    til/github-actions/checkout-django
+
+.. toctree::
+    :maxdepth: 1
     :caption: HTMX:
 
     til/htmx/progressively-enhance-a-form
