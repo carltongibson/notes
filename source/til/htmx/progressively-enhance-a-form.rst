@@ -9,7 +9,7 @@ Progressively Enhance a Form with HTMX
 With a Django form that I want to include in a page and use HTMX to process on
 the `change` event:
 
-.. code-block:: html
+.. code-block:: html+django
 
     <div hx-select=".my-form">
       <form method="post" action={{ form_action }} class="my-form"
