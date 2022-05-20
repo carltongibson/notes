@@ -26,10 +26,10 @@ It has a (slightly hidden) `Start here`_. The opening section:
 
 This is what I need. A clear introduction. Progress. 📚
 
-The WAI are `@w3c_wai on Twitter <@w3c_wai>`_, and have an `RSS feed`_ for the
+The WAI are `@w3c_wai on Twitter`_, and have an `RSS feed`_ for the
 ever-web.
 
 .. _ARIA Authoring Practices Guide: https://www.w3.org/WAI/ARIA/apg/
 .. _Start here: https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/
-.. _@w3c_wai: https://twitter.com/w3c_wai
+.. _@w3c_wai on Twitter: https://twitter.com/w3c_wai
 .. _RSS feed: https://www.w3.org/WAI/feed.xml
