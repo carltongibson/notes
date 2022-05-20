@@ -15,6 +15,12 @@ Shorter notes and snippets.
 
 .. toctree::
     :maxdepth: 1
+    :caption: Accessibility:
+
+    til/accessibility/intro-to-aria.rst
+
+.. toctree::
+    :maxdepth: 1
     :caption: Alpine.js:
 
     til/alpine.js/getting-started
