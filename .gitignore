@@ -1,3 +1,4 @@
 build
 .venv
 *.pyc
+examples/channels_tutorial/mysite/db.sqlite3
