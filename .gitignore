@@ -2,3 +2,4 @@ build
 .venv
 *.pyc
 examples/channels_tutorial/mysite/db.sqlite3
+examples/channels_tutorial/mysite/geckodriver.log
