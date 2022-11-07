@@ -6,6 +6,7 @@ The Notebook
     :maxdepth: 2
     :caption: Contents:
 
+    tailwind/index
     sphinx/index
 
 Today I learnt (TIL)
