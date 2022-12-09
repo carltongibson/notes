@@ -21,6 +21,7 @@ Shorter notes and snippets, by topic.
     :caption: GitHub Actions:
 
     github-actions/checkout-django
+    github/dependabot-combined-updates
 
 .. toctree::
     :maxdepth: 1
