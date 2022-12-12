@@ -3,3 +3,6 @@ build
 *.pyc
 examples/channels_tutorial/mysite/db.sqlite3
 examples/channels_tutorial/mysite/geckodriver.log
+examples/rust/cli/hello/target
+examples/rust/cli/hello/.idea
+
