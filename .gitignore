@@ -6,3 +6,5 @@ examples/channels_tutorial/mysite/geckodriver.log
 examples/rust/cli/hello/target
 examples/rust/cli/hello/.idea
 
+examples/rust/cli/echor/target
+examples/rust/cli/echor/.idea
