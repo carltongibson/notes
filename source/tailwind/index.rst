@@ -17,3 +17,13 @@ Useful links
 * `Tailwind UI <https://tailwindui.com/>`_. This is a paid add-on of components and
   templates. In my mind well worth it, and paying something back helps make sure that a
   project I'm using stays sustainable.
+
+Icons
+=====
+
+The Tailwind folks have the _Heroicons_ set, but also useful are the _Bootstrap Icons_:
+
+* [Heroicons](https://heroicons.com/)
+* [Bootstrap Icons](https://icons.getbootstrap.com/)
+
+Both let you search and then copy the SVG code to your clipboard.
