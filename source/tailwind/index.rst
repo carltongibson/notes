@@ -23,7 +23,7 @@ Icons
 
 The Tailwind folks have the _Heroicons_ set, but also useful are the _Bootstrap Icons_:
 
-* [Heroicons](https://heroicons.com/)
-* [Bootstrap Icons](https://icons.getbootstrap.com/)
+* `Heroicons <https://heroicons.com/>`_.
+* `Bootstrap Icons <https://icons.getbootstrap.com/>`_.
 
 Both let you search and then copy the SVG code to your clipboard.
