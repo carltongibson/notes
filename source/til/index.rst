@@ -18,6 +18,12 @@ Shorter notes and snippets, by topic.
 
 .. toctree::
     :maxdepth: 1
+    :caption: CSS:
+
+    css/grid-resources
+
+.. toctree::
+    :maxdepth: 1
     :caption: GitHub Actions:
 
     github-actions/checkout-django
