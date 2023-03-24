@@ -3,7 +3,7 @@ name: Build & Upload
 on:
   # Trigger on pushes to the main branch only.
   push:
-    branches: [ main ]
+    branches: [main]
 
   # Or run manually.
   workflow_dispatch:
@@ -12,10 +12,10 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
