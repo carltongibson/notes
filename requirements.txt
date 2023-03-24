@@ -3,3 +3,5 @@ myst-parser
 sphinx
 sphinx-autobuild
 sphinx-tabs
+django
+django-sphinx-view

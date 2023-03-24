@@ -31,6 +31,7 @@ extensions = [
     "myst_parser",
     "sphinx.ext.autodoc",
     "sphinx_tabs.tabs",
+    "sphinx_view",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -49,10 +50,10 @@ exclude_patterns = []
 #
 # Revert to alabaster theme pending resolution of
 # https://github.com/pradyunsg/furo/issues/89
-html_theme = 'furo'
+# html_theme = 'furo'
 #html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
