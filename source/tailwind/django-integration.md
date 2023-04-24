@@ -66,12 +66,14 @@ class Command(BaseCommand):
         return template_files
 ```
 
+This would be a management command, so somewhere like `myapp/management/commands/list_templates.py`.
+
 
 ## Telling Tailwind
 
 They we need to use that in our Tailwind config.
 
-Something like this:
+Something like this in your `tailwind.config.js`:
 
 ```javascript
 // Resolve path to directory containing manage.py file.
