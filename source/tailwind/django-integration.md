@@ -71,7 +71,7 @@ This would be a management command, so somewhere like `myapp/management/commands
 
 ## Telling Tailwind
 
-They we need to use that in our Tailwind config.
+Then we need to use that in our Tailwind config.
 
 Something like this in your `tailwind.config.js`:
 
