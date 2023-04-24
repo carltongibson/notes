@@ -8,6 +8,12 @@ I'll leave a blank here as to the *why*… — there's plenty of that on their s
 
 Suffice to say, I've been using CSS since it only (half-)worked in one browser and you were *significantly* better off with a table-based layout and some spacer gifs. In all that time, it's never been the case for me that I found CSS easy to maintain. Tailwind gives me that, so I'm a fan.
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+
+    django-integration
+
 
 Useful links
 ============
