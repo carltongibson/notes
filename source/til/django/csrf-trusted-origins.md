@@ -8,7 +8,7 @@ Further up, there’s a note on changes to CSRF:
 
 > CSRF protection now consults the Origin header, if present. To facilitate this, _some changes_ to the `CSRF_TRUSTED_ORIGINS` setting are required.
 
-(The _some changes_ they’re linking back to the previous.)
+(The _some changes_ there linking back to the previous.)
 
 In basic setups you shouldn’t have to set `CSRF_TRUSTED_ORIGINS` at all.
 From [the docs](https://docs.djangoproject.com/en/4.2/ref/settings/#csrf-trusted-origins):
