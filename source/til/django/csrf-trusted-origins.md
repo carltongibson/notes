@@ -33,6 +33,8 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 ```
 
+Unless you're really serving with both HTTP and HTTPS, this likely isn't what you want.
+
 The CSRF check compares the `Host` header, which looks like `'your-site.com'` with the `Origin`, which looks like `'https://your-site.com'`, by using the value of `request.is_secure()` to determine the scheme.
 
 From [the docs](https://docs.djangoproject.com/en/4.2/ref/request-response/#django.http.HttpRequest.is_secure):
