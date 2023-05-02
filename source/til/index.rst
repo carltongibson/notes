@@ -24,6 +24,12 @@ Shorter notes and snippets, by topic.
 
 .. toctree::
     :maxdepth: 1
+    :caption: Django:
+
+    django/csrf-trusted-origins
+
+.. toctree::
+    :maxdepth: 1
     :caption: GitHub Actions:
 
     github-actions/checkout-django
