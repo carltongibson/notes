@@ -12,6 +12,7 @@ Suffice to say, I've been using CSS since it only (half-)worked in one browser a
     :maxdepth: 2
     :caption: Contents:
 
+    custom-color-aliases
     django-integration
 
 
