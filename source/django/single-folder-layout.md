@@ -13,7 +13,7 @@ First, and foremost, I don’t use a custom project template. It’s Django’s 
 
 I certainly don’t use the likes of `django-cookiecutter`, as great as that is (and similar projects are) for many people.
 
-The older I get, the longer I’ve been doing it, the less I want in the way, so no custom template. (I am happy to **read** custom templates. It’s always good to see what folks what to include. But **using** them is something else.)
+The older I get, the longer I’ve been doing it, the less I want in the way, so no custom template. (I am happy to **read** custom templates. It’s always good to see what folks like to include. But **using** them is something else.)
 
 ## Too Many Folders
 
