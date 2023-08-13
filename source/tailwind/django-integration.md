@@ -52,8 +52,8 @@ class Command(BaseCommand):
         app_template_dirs = get_app_template_dirs("templates")
         for app_template_dir in app_template_dirs:
             template_files += self.list_template_files(app_template_dir)
-        template_files += self.list_template_files(settings.TEMPLATES[0]["DIRS"])
-
+        for template_dir in settings.TEMPLATES[0]["DIRS"]:
+            template_files += self.list_template_files(template_dir)
         self.stdout.write("\n".join(template_files))
 
     def list_template_files(self, template_dir):
