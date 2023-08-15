@@ -17,7 +17,7 @@ The older I get, the longer I’ve been doing it, the less I want in the way, so
 
 ## Too Many Folders
 
-The standard flow here, which is [straight from the tutorial](https://docs.djangoproject.com/en/dev/intro/tutorial01/) I think, is to run `startproject`, followed almost immediately by a `startapp`. (`django-admin startproject mysite`, `cd mysite`, `./manage.py startapp polls`.) That’s all great but it’s too many files, too many folders.
+The standard flow here, which is [straight from the tutorial](https://docs.djangoproject.com/en/dev/intro/tutorial01/), I think, is to run `startproject`, followed almost immediately by a `startapp`. (`django-admin startproject mysite`, `cd mysite`, `./manage.py startapp polls`.) That’s all great but it’s too many files, too many folders.
 
 If I’m starting a new project named `cakeshop`, I then need to come up with a decent app name for my models, but I already used it. I end up with something like `core` or `base`. Meh.
 
@@ -56,7 +56,7 @@ cakeshop:
 	manage.py
 ```
 
-To begin I’ll throw my views into `urls.py`. I’ll sprout a `views.py` when that gets out of hand. Maybe we grow a `forms.py`, a `managers.py` and so on, but this is the structure I’ll almost always start with these days. It’s just a little more _dense_ than having the extra (to my eye idle ) app directory.
+To begin I’ll throw my views into `urls.py`. I’ll sprout a `views.py` when that gets out of hand. Maybe we grow a `forms.py`, a `managers.py` and so on, but this is the structure I’ll almost always start with these days. It’s just a little more _dense_ than having the extra (to my eye, idle) app directory.
 
 ## Growing a Second App
 …And Beyond
