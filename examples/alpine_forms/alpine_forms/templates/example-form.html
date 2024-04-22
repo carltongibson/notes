@@ -1,0 +1,50 @@
+{% load partials %}
+
+
+{% partialdef favourite-framework %}
+<div x-data="{
+        valid: null,
+        checkValid(event) {
+            let value = event.target.value.toLowerCase();
+            if (value === 'django') {
+                 valid = 'success';
+             } else if (value === '') {
+                valid = 'empty';
+             } else if ('django'.startsWith(value)) {
+                 valid = 'maybe';
+             } else {
+                 valid = 'error';
+             }
+             this.valid = valid;
+        }
+     }">
+{% include 'django/forms/field.html#field-group' %}
+<p class="text-green-600" x-show="valid === 'success'" x-transition>You're good!</p>
+<p class="text-yellow-600" x-show="valid === 'maybe'" x-transition>Maybe… — keep typing!</p>
+<p class="text-red-600" x-show="valid === 'error'" x-transition>
+    That doesn't look right. You sure you didn't mean Django? 🤔
+</p>
+</div>
+{% endpartialdef %}
+
+
+{% partialdef compressor %}
+<div x-show="component === 'STATICFILES'" x-transition
+    x-data="{
+        hero:false,
+        checkHero(event) {
+            this.hero = event.target.value === 'YES';
+        }
+    }">
+{% include 'django/forms/field.html#field-group' %}
+<p class="text-green-600" x-show="hero" x-transition>Hero! 🦸</p>
+</div>
+{% endpartialdef %}
+
+
+{# To make the compressor field dependent on the component select we #}
+{# make the whole form an Alpine component #}
+{# Set the form's template to this file. #}
+<section x-data="{component: null}" x-effect="console.log(component)">
+{% include 'django/forms/div.html' %}
+</section>
