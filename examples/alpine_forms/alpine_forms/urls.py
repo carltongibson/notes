@@ -22,7 +22,7 @@ class ExampleForm(forms.Form):
     )
 
     favourite_component = forms.ChoiceField(
-        label="What's your faviourite component?",
+        label="What's your favourite component?",
         choices=[(None, "---")] + ComponenentChoices.choices,
         widget=forms.Select(
             attrs={
