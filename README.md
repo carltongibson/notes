@@ -1,8 +1,3 @@
-# notes
-Notes on …
-
-
-
 ## Being an open source maintainer discussion group
 
 If you [head over to the discussions](https://github.com/carltongibson/notes/discussions) you can partake in the _Being an open source maintainer discussion group_. 
@@ -21,3 +16,8 @@ Folks are welcome here from all backgrounds. Respect that. Please read the Djang
 Beyond that, I'm your host here, and so I ask you to be polite, to everyone here, as if you were in my home. If you're not, I will ask you to leave. 
 
 Have fun! ❤️
+
+
+## My notes on misc.
+
+The **content** bit of this repo, is the source for the [/notes/](https://noumenal.es/notes/) section on my website. You can head over there to read that. 👀
