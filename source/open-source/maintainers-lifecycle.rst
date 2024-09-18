@@ -35,8 +35,7 @@ And if we do, what, of all the things we do to keep our package going, can we
 open up to prospective maintainers, so that they can begin to get their feet
 wet?
 
-As the waves come up and fall again, are we enabling a sustainable lifecycle to
-in our contributions?
-
+As the waves come up and fall again, are we enabling a sustainable lifecycle in
+our contributions?
 
 Want to chat about this? `Over here <https://github.com/carltongibson/notes/discussions/30>`_ 👋
