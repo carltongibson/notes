@@ -6,6 +6,7 @@ The Notebook
     :maxdepth: 2
     :caption: Contents:
 
+    open-source/index
     django/index
     tailwind/index
     sphinx/index
