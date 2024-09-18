@@ -29,7 +29,7 @@ some point you need to take on help.
 
 So maybe we should get on with that?
 
-Once we're confortable as maintainers, do we start to see ourselves handing that off?
+Once we're comfortable as maintainers, do we start to see ourselves handing that off?
 
 And if we do, what, of all the things we do to keep our package going, can we
 open up to prospective maintainers, so that they can begin to get their feet
