@@ -1,6 +1,6 @@
 # Alpine Enhanced Form Example
 
-Demo code for _Enhancing your Django 5.0 Forms with Alpine.js_ talk, to Django Paris
+Demo code for [_Enhancing your Django 5.0 Forms with Alpine.js_](https://www.youtube.com/watch?v=SjNyU0u_pkU) talk, to Django Paris
 Meetup, Tuesday April 23, 2024.
 
 Blog post to follow.
