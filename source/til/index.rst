@@ -27,6 +27,7 @@ Shorter notes and snippets, by topic.
     :caption: Django:
 
     django/csrf-trusted-origins
+    django/testing-with-playwright
 
 .. toctree::
     :maxdepth: 1
