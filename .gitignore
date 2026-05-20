@@ -8,3 +8,4 @@ examples/rust/cli/hello/.idea
 
 examples/rust/cli/echor/target
 examples/rust/cli/echor/.idea
+**/.DS_Store
